@@ -1,0 +1,106 @@
+body{
+    font-family: "fantasy", "Arial Black", sans-serif;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    color: red;
+    text-decoration: underline;
+}
+header{
+    height: 100px;
+}
+
+footer{
+    height: 80px;
+    padding-top: 30px;
+    text-align: center;
+    background-color: dimgrey;
+    color: aqua;
+    border-top: 2px solid black;
+}
+
+.menu{
+    font-family: "Verdana","Arial Black",sans-serif;
+    font-size: 15px;
+    background-color: #5c5757;
+    width: 100%;
+    display: table;
+    margin: 0 auto;
+}
+a:hover{
+    background-color: chocolate;
+}
+
+nav li{
+    list-style-type: none;
+    float: left;
+}
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    margin: 5px auto;
+    padding: 20px;
+    color: aqua;
+}
+.presentation, .experience, .hob {
+    width: 100%;
+    background-color: darkseagreen;
+    color: beige;
+    padding-left: 10px;
+}
+.comp{
+    background-color: darkseagreen;
+}
+
+.form{
+    width: 100%;
+    padding-left: 20px;
+}
+h2+p{
+    padding-left: 15px;
+}
+
+fieldset{
+    width: 80%;
+    margin: 0 auto;
+    background-color: darkseagreen;
+}
+
+#submit{
+    margin-left: 50%;
+    margin-top: 10px;
+}
+
+#submit:hover{
+    color: red;
+    box-shadow: 0 0 5px red;
+}
+#form1{
+    padding: 10px;
+    margin: 20px 0;
+}
+#form2{
+    padding: 10px;
+    margin: 20px 0;
+}
+legend{
+    font-size: 20px;
+}
+#form1 input{
+    width: 200px;
+    height: 15px;
+}
+#form1 label{
+    display: inline-block;
+    width: 200px;
+    padding: 10px 0 15px 40px;
+}
+#form2 textarea{
+    margin: 10px;
+}

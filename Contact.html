@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Dark Vador</h1>
+    </header>
+
+    <nav>
+        <div class="menu">
+            <ul>
+                <li class="menu-ind">
+                    <a href="index.html">Accueil</a>
+                </li>
+                <li class="menu-exp">
+                    <a href="experience.html">Experience</a>
+                </li>
+                <li class="menu-hob">
+                    <a href="Hobbies.html">Hobbies</a>
+                </li>
+                <li class="menu-contact">
+                    <a href="Contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="form">
+            <h2>Contactez moi !</h2>
+            <form action="form.php" method="post">
+                <fieldset id="form1">
+                    <legend>Identifiant :</legend>
+                    <label for="name">Entrez votre nom :</label>
+                    <input type="text" name="name" id="name"><br>
+                    <label for="lastname">Entrez votre prenom :</label>
+                    <input type="text" name="lastname" id="lastname"><br>
+                </fieldset>
+                <fieldset id="form2">
+                    <legend>Presentation :</legend>
+                    <label for="pres">Presentez vous en quelques mots :</label><br>
+                    <textarea name="pres" id="pres" cols="50" rows="5"></textarea><br>
+                </fieldset>
+                <input type="submit" value="Envoyer" id="submit">
+            </form><br>
+        </div>
+    </nav>
+    <br>
+
+    <footer>
+        Dark Vador copyright 2021
+    </footer>
+
+</body>
+</html>
