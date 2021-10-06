@@ -27,16 +27,18 @@
                 </li>
             </ul>
         </div>
+
         <div class="form">
             <h2 class="anim">Contactez moi !</h2>
             <form action="form.php" method="post">
                 <fieldset id="form1">
                     <legend>Identifiant :</legend>
-                    <label for="name">Entrez votre nom :</label>
+                    <label id="lab" for="name">Entrez votre nom :</label>
                     <input type="text" name="name" id="name"><br>
                     <label for="lastname">Entrez votre prenom :</label>
                     <input type="text" name="lastname" id="lastname"><br>
                 </fieldset>
+
                 <fieldset id="form2">
                     <legend>Presentation :</legend>
                     <label for="area">Presentez vous en quelques mots :</label><br>
@@ -45,12 +47,14 @@
                 <input type="submit" value="Envoyer" id="submit">
             </form><br>
         </div>
+
     </nav>
     <br>
 
     <footer>
         Dark Vador copyright 2021
     </footer>
+
     <script src="app.js"></script>
 </body>
 </html>

@@ -37,7 +37,7 @@ a:hover{
     background-color: chocolate;
 }
 
-nav li{
+.menu li{
     list-style-type: none;
     float: left;
 }
@@ -103,4 +103,13 @@ legend{
 }
 #form2 textarea{
     margin: 10px;
+}
+
+li{
+    list-style-type: circle;
+    margin-left: 50px;
+}
+h3{
+    padding-left: 25px;
+    text-decoration: underline;
 }
