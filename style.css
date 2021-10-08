@@ -19,6 +19,7 @@ header{
 footer{
     height: 80px;
     padding-top: 30px;
+    margin-top: 20px;
     text-align: center;
     background-color: dimgrey;
     color: aqua;
@@ -48,14 +49,14 @@ nav a{
     padding: 20px;
     color: aqua;
 }
-.presentation, .experience, .hob {
+.presentation {
     width: 100%;
     background-color: darkseagreen;
     color: beige;
     padding-left: 10px;
-}
-.comp{
-    background-color: darkseagreen;
+    text-align: center;
+    text-shadow: 0 0 2px red;
+    padding-bottom: 10px;
 }
 
 .form{

@@ -7,7 +7,7 @@ let x = -1000;
 setInterval(()=>{
 
         title.style.transform = "translateX("+x+"px)";
-        x+=2;
+        x+=4;
         if(x===1000){
             x=-1000;
         }
@@ -22,7 +22,7 @@ setInterval(()=>{
     for(let i=0; i < titles.length; i++){
         titles[i].style.transform = "translateX("+x2+"px)";
 
-        x2 +=1;
+        x2 +=3;
         if(x2>50){
             x2=50;
             titles[i].style.color = "blue";
@@ -93,28 +93,10 @@ for(let label of labs){
     })
 }
 
-    /*Recuperation des info Json*/
-let comp = document.querySelector(".comp");
 
-fetch("/data.json").then(resp => resp.json())
-    .then(json => {
-        for(let x of json["Experiences"]){
-            let li = document.createElement("li");
-            li.innerHTML = x;
-            comp.append(li);
-        }
-    })
 
-let hob = document.querySelector(".hob");
 
-fetch("/data.json").then(resp => resp.json())
-    .then(json => {
-        for(let x of json["Mes hobbies"]){
-            let li = document.createElement("li");
-            li.innerHTML = x;
-            hob.append(li);
-        }
-    })
+
 
 
 

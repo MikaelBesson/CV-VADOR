@@ -1,3 +1,6 @@
+<?php
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -15,16 +18,16 @@
         <div class="menu">
             <ul>
                 <li class="menu-ind">
-                    <a href="index.html">Accueil</a>
+                    <a href="index.php">Accueil</a>
                 </li>
                 <li class="menu-exp">
-                    <a href="experience.html">Experience</a>
+                    <a href="experience.php">Experience</a>
                 </li>
                 <li class="menu-hob">
-                    <a href="Hobbies.html">Hobbies</a>
+                    <a href="Hobbies.php">Hobbies</a>
                 </li>
                 <li class="menu-contact">
-                    <a href="Contact.html">Contact</a>
+                    <a href="Contact.php">Contact</a>
                 </li>
             </ul>
         </div>
@@ -37,3 +40,4 @@
     <script src="app.js"></script>
 </body>
 </html>
+
