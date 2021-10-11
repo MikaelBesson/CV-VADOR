@@ -29,6 +29,9 @@
                 <li class="menu-contact">
                     <a href="Contact.php">Contact</a>
                 </li>
+                <li>
+                    <a href="form.php">Connection</a>
+                </li>
             </ul>
         </div>
     </nav>

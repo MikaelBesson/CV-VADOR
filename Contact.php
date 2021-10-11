@@ -34,7 +34,7 @@
 
         <div class="form">
             <h2 class="anim">Contactez moi !</h2>
-            <form action="form.php" method="post">
+            <form action="contact.php" method="post">
                 <fieldset id="form1">
                     <legend>Identifiant :</legend>
                     <label id="lab" for="name">Entrez votre nom :</label>
@@ -47,8 +47,9 @@
                     <legend>Presentation :</legend>
                     <label for="area">Presentez vous en quelques mots :</label><br>
                     <textarea name="pres" id="area" cols="50" rows="5"></textarea><br>
+                    <input type="submit" value="Envoyer" id="submit">
                 </fieldset>
-                <input type="submit" value="Envoyer" id="submit">
+
             </form><br>
         </div>
 

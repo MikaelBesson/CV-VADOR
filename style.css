@@ -73,12 +73,12 @@ fieldset{
     background-color: darkseagreen;
 }
 
-#submit{
-    margin-left: 50%;
+#submit, #input_co{
+    margin-left: auto;
     margin-top: 10px;
 }
 
-#submit:hover{
+#submit:hover, #input_co:hover{
     color: red;
     box-shadow: 0 0 5px red;
 }
@@ -113,4 +113,13 @@ li{
 h3{
     padding-left: 25px;
     text-decoration: underline;
+}
+
+.connexion{
+    width: 60%;
+    height: 30%;
+    border: 2px solid blue;
+    background-color: rgba(146, 165, 208, 0.5);
+    margin: 5% auto auto;
+    text-align: center;
 }
